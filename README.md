@@ -37,7 +37,9 @@ CPUやマザーボードによっては、PawnIOを使用してもCPU温度を�
 
 ## Beta
 
-v3.0.0-betaはベータ版です。不具合はGitHub Issuesへお知らせください。
+最新のv3.0.1-betaでは、アプリ再起動後にCPU・GPU温度が数秒で消える場合がある問題を
+修正しました。v3.0.0-betaを使用中の場合は更新してください。
+不具合はGitHub Issuesへお知らせください。
 
 ---
 
@@ -48,4 +50,3 @@ This repository distributes the official Windows companion app for Water Cooling
 - Windows 11 x64 and compatible device firmware are required.
 - CPU/GPU temperature acquisition is optional. Some CPUs may not expose a supported temperature sensor.
 - WinRing0 is not included or used.
-
