@@ -1,12 +1,12 @@
-# Windows App v3.0.2-beta
+# Windows App v3.0.2
 
-Water Cooling Device Windowsアプリ標準版のベータ更新です。
+Water Cooling Device Windowsアプリ標準版の正式リリースです。
 
 ## 配布ファイル
 
-- `WaterCoolingDevice-Windows-v3.0.2-beta-full.zip`
+- `WaterCoolingDevice-Windows-v3.0.2-full.zip`
   - .NET 8同梱。通常はこちらを推奨します。
-- `WaterCoolingDevice-Windows-v3.0.2-beta-minimal.zip`
+- `WaterCoolingDevice-Windows-v3.0.2-minimal.zip`
   - 小容量版。.NET 8 Desktop Runtimeの事前インストールが必要です。
 - `SHA256SUMS.txt`
   - ダウンロードファイルのSHA-256確認用です。

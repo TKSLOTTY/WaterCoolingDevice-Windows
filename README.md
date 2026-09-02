@@ -4,10 +4,16 @@ Water Cooling DeviceをWindowsから監視・設定するための公式アプ�
 
 ## ダウンロード
 
-GitHub Releasesから用途に合うZIPをダウンロードしてください。
+用途に合う版と構成を選んでダウンロードしてください。
 
-- **Windows App v3.0.2 Beta**: 通常画面を使用する標準版です。
-- **WCD-01 LUNE Edition v1.0.0**: 通常画面とLUNE画面を切り替えて使用できる特別版です。
+- **Windows App v3.0.2（標準版）**
+  - [Full版をダウンロード](https://github.com/TKSLOTTY/WaterCoolingDevice-Windows/releases/download/v3.0.2/WaterCoolingDevice-Windows-v3.0.2-full.zip)
+  - [Minimal版をダウンロード](https://github.com/TKSLOTTY/WaterCoolingDevice-Windows/releases/download/v3.0.2/WaterCoolingDevice-Windows-v3.0.2-minimal.zip)
+  - [リリース詳細](https://github.com/TKSLOTTY/WaterCoolingDevice-Windows/releases/tag/v3.0.2)
+- **WCD-01 LUNE Edition v1.0.0**
+  - [Full版をダウンロード](https://github.com/TKSLOTTY/WaterCoolingDevice-Windows/releases/download/lune-v1.0.0/WaterCoolingDevice-Windows-LUNE-v1.0.0-full.zip)
+  - [Minimal版をダウンロード](https://github.com/TKSLOTTY/WaterCoolingDevice-Windows/releases/download/lune-v1.0.0/WaterCoolingDevice-Windows-LUNE-v1.0.0-minimal.zip)
+  - [リリース詳細](https://github.com/TKSLOTTY/WaterCoolingDevice-Windows/releases/tag/lune-v1.0.0)
 
 - **Full**: .NET 8同梱版です。通常はこちらを選んでください。
 - **Minimal**: 小容量版です。別途.NET 8 Desktop Runtimeが必要です。
@@ -41,9 +47,9 @@ CPUやマザーボードによっては、PawnIOを使用してもCPU温度を�
 - 対応するWater Cooling Device本体・ファームウェア
 - Minimal版のみ [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0)
 
-## Beta
+## v3.0.2
 
-最新の標準版v3.0.2-betaでは、バージョン表示、自動起動登録先の自動修復、
+標準版v3.0.2では、バージョン表示、自動起動登録先の自動修復、
 高水温フェイルセーフの警告表示とWindows標準警告音を追加しました。
 v3.0.1-betaまでの温度取得安定化修正も含まれます。
 不具合はGitHub Issuesへお知らせください。
@@ -52,6 +58,8 @@ v3.0.1-betaまでの温度取得安定化修正も含まれます。
 
 This repository distributes the official Windows companion app for Water Cooling Device.
 
+- **Windows App v3.0.2** is the standard release.
+- **WCD-01 LUNE Edition v1.0.0** adds the switchable LUNE display.
 - **Full** includes .NET 8 and is recommended for most users.
 - **Minimal** is smaller and requires the .NET 8 Desktop Runtime.
 - Windows 11 x64 and compatible device firmware are required.
